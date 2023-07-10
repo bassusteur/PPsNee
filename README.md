@@ -31,18 +31,7 @@ Is developed by the psxdev team
  
 -------------------------------------------------
 
- This PsNee version is meant for Arduino boards.
-
- 
-  - Arduino Pro Mini @8Mhz and @16Mhz (supported, tested)
-  - Arduino Uno @8Mhz and @16Mhz (supported, tested)
-
-  - Pro Micro @8Mhz and @16Mhz (supported, tested)
-  - Arduino Leonardo @8Mhz and @16Mhz: Should work the same as Pro Micro, but two pins are on the ICSP header (supported, untested)
-  
-  - ATtiny85: Should work the same as ATtiny45 (supported, untested)
-  - ATtiny45: LFUSE 0xE2  HFUSE 0xDF > internal oscillator, full 8Mhz speed (supported, tested)
-  - ATtiny25: Should work the same as ATtiny45 but doesn't have enough Flash nor RAM for PSNEEDEBUG (supported, untested)
+ This PsNee version is a fork of the original Arduino version and rewritten to work with rp2040 boards.
   
 ---------------------------------------------------------------------------
 
